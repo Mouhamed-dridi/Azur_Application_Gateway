@@ -64,8 +64,18 @@ add backend seting
 
 
 
+add the baken vms 
+![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/e54a9dee-a249-4e1e-ae41-480390928274)
+
+add your and also cann add vmss if you have 
+![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/d6ee8b70-08ca-4a40-837a-983364d7c9ae)
 
 
+tets by put the public ip the nevagateur 
+![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/7815c8f5-736b-44a5-85c5-1812e3c8e4ca)
+
+itswork 
+![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/9785b8a9-dfdd-49ee-baa3-37d0bb59d553)
 
 
 Notes
