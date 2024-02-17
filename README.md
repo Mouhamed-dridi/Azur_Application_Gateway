@@ -47,38 +47,46 @@ Create an Application Gateway with a backend pool consisting of the two virtual 
 1- use v2 and multizonz if use vmms instante use 3 zonz and choosevnet that create spsifily for the appgatway
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/d53ee3cd-05e7-4bcf-a4a8-aad249802070)
 
-add frontend config for the app with public ip
+ - Configure the frontend for the application with a public IP.
+   
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/980168a4-4755-4f14-9071-75828be53741)
 
-add backen vms pool xcan use vmms(group of vms) or can createyou vms normaly use option create without taget we gonna add the vms later 
+- Integrate backend VMs pool; you can utilize VMs (grouped) or create individual VMs. If creating without a target, we can add the VMs later.
+
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/509ed97d-e3dc-4a22-b487-d211b742285e)
 
-creae routing roules bettwen backen and frontned 
+- Establish routing rules between the backend and frontend.
+
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/680ed42b-1581-4b09-a7ef-3493b0763cab)
 
-add lisener(frontend )
+- add lisener(frontend )
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/9edb4d58-3bac-4abf-b5b2-69ddde45cdbe)
 
-add backend seting
+
+- ncorporate backend settings.
+
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/be60f6f8-0fd7-4b15-a5ee-4c57222bd75d)
 
 
-
-add the baken vms 
+- Simply click on the VM configuration pool to modify settings and include your targeted VMs.
+  
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/e54a9dee-a249-4e1e-ae41-480390928274)
 
-add your and also cann add vmss if you have 
+- Integrate your virtual machines (VMs) that are already created, and you can easily add more VMs if necessary.
+  
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/d6ee8b70-08ca-4a40-837a-983364d7c9ae)
 
 
-tets by put the public ip the nevagateur 
+- Test by entering the public IP in the browser's address bar
+  
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/7815c8f5-736b-44a5-85c5-1812e3c8e4ca)
 
-itswork 
+- itswork
+  
 ![image](https://github.com/Mouhamed-dridi/Azur_Application_Gateway/assets/53900924/9785b8a9-dfdd-49ee-baa3-37d0bb59d553)
 
 
-Notes
+### Notes
 Ensure proper network security group rules are in place to allow traffic to the virtual machines from the Application Gateway.
 Adjust the configurations as per your specific requirements and network architecture.
 Consider enabling SSL termination and configuring other advanced features based on your needs.
