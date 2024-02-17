@@ -1,0 +1,2 @@
+az network vnet create --resource-group network-labes --name appgateway-vnet --address-prefixes 10.0.0.0/16 --subnet-name subnet-appgateway --subnet-prefix 10.10.0.0/24
+az network vnet subnet create --resource-group network-labes --vnet-name appgateway-vnet --name subnet-vms --address-prefix 10.20.0.0/24
